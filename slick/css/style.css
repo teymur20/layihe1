@@ -1,0 +1,1065 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  padding: 20px 0;
+  background: rgba(34, 34, 34, 0.25);
+  -webkit-transition: all ease-out 0.5s;
+  -moz-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
+  transition: all ease-out 0.5s;
+}
+.header img {
+  width: 70%;
+}
+.header .header-center .dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 20px;
+  font-weight: bold;
+}
+.header .header-center .dropdown:hover .dropbtn {
+  color: #6c757d;
+}
+.header .header-center .dropdown:hover .drop-content {
+  background-color: #262624;
+  visibility: visible;
+  top: 150%;
+  transition: 0.2s;
+  color: #fff;
+}
+.header .header-center .dropdown .drop-content {
+  background-color: #778597;
+  padding: 20px;
+  position: absolute;
+  min-width: 200px;
+  top: 220%;
+  left: 0;
+  visibility: hidden;
+  transition: 0.2s;
+  z-index: 999;
+}
+.header .header-center .dropdown .drop-content a {
+  text-align: left;
+  padding: 10px 0;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+.header .header-center .dropdown .drop-content a:hover {
+  color: orangered;
+}
+.header .header-center .dropdown .dropbtn {
+  color: white;
+  text-decoration: none;
+}
+.header .header-right i {
+  color: #fff;
+  font-size: 15px;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+  padding: 0px 8px;
+}
+.header .header-right i:hover {
+  color: #ff3837;
+}
+
+.active {
+  background-color: rgba(34, 34, 34, 0.9);
+}
+
+.photo {
+  overflow: hidden;
+}
+.photo .photoBox {
+  background-image: url("https://quattro.true-emotions.studio/wp-content/uploads/2018/11/qqq.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 24rem 0;
+}
+.photo .photoBox h3 {
+  font-size: 35px;
+  color: #fff;
+}
+.photo .photoBox button {
+  color: #fff;
+  font-size: 15px;
+  background-color: #ff3737;
+  border: none;
+  padding: 18px 40px 20px;
+  border-radius: 5px;
+}
+.photo .photoBox2 {
+  background-image: url("https://quattro.true-emotions.studio/wp-content/uploads/2018/12/xl-red.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 24rem 0;
+}
+.photo .photoBox2 h3 {
+  font-size: 35px;
+  color: #fff;
+}
+.photo .photoBox2 button {
+  color: #fff;
+  font-size: 15px;
+  background-color: #ff3737;
+  border: none;
+  padding: 18px 40px 20px;
+}
+
+.header3 {
+  background-color: #f6f6f7;
+  padding: 5rem 0;
+}
+.header3 .texts img {
+  width: 20%;
+}
+.header3 h5 {
+  font-weight: bold;
+}
+.header3 button {
+  color: #fff;
+  font-size: 15px;
+  background-color: #ff3737;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 40px 20px;
+  transition: all 0.3s ease-in-out;
+}
+.header3 button:hover {
+  box-shadow: 0 0 20px #ff3737;
+}
+
+.Car {
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.Car:hover .price .p1 {
+  transform: translateY(-10px);
+}
+.Car:hover .price .p2 {
+  transform: translateY(0);
+  visibility: visible;
+}
+.Car .price {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  padding: 5px 18px;
+  background-color: #ff3737;
+  border-radius: 5px;
+}
+.Car .price .p1 {
+  color: #fff;
+  font-weight: bold;
+}
+.Car .price .p2 {
+  color: #fff;
+  font-weight: bold;
+  transform: translateY(25px);
+  visibility: hidden;
+}
+.Car .car-bottom {
+  background: #000;
+}
+.Car .car-bottom .col-lg-3 {
+  text-align: center;
+}
+.Car .car-bottom p {
+  color: #fff;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#Tabs {
+  background-image: url("https://quattro.true-emotions.studio/wp-content/uploads/2019/07/bg3.jpg?id=1919");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 4rem 0 10rem;
+  z-index: -999;
+  margin: 3rem 0;
+  /* Style the buttons inside the tab */
+}
+#Tabs .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -999;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.88);
+}
+#Tabs .tab {
+  overflow: hidden;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+#Tabs .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 15px 10px 15px 5px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: #fff;
+}
+#Tabs .tab button.active {
+  color: #ff3737;
+  border-bottom: 3px solid #ff3737;
+}
+#Tabs .tabcontent {
+  display: none;
+  padding: 25px 0 0;
+  border-top: none;
+  color: #bbb;
+}
+#Tabs button {
+  background-color: #ff3737;
+  color: #fff;
+  font-weight: bold;
+  padding: 14px 32px;
+  border-radius: 5px;
+  border: none;
+}
+
+#logoSlide {
+  padding: 10px 0;
+  margin-top: -10rem;
+  z-index: 9999;
+}
+#logoSlide .container {
+  background: #ff3737;
+}
+#logoSlide .logoslideAll {
+  margin: 0 !important;
+}
+#logoSlide .box {
+  padding: 25px;
+}
+
+.test {
+  padding: 100px;
+  background-color: #f6f6f7;
+}
+.test h2 {
+  font-weight: bold;
+  padding: 0 60px;
+  font-size: 40px;
+}
+.test p {
+  padding-top: 50px;
+  color: #5c5c5c;
+  font-size: 14px;
+}
+.test .test-box {
+  margin-top: 4rem;
+}
+.test .boxes-text {
+  background-color: #ffffff;
+  box-shadow: 5px 10px 8px 10px #888888;
+  padding-top: 0;
+}
+.test .boxes-text h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.cars-body {
+  background-color: #f6f6f7;
+  padding: 20px;
+}
+.cars-body h2 {
+  font-weight: bold;
+  color: black;
+  font-size: 45px;
+}
+.cars-body p {
+  color: #5c5c5c;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.carsss {
+  position: relative;
+  background-color: #f6f6f7;
+  padding: 100px;
+}
+.carsss .image1 {
+  padding: 0;
+}
+.carsss .carsss-image {
+  margin: 0 0 50px -24px;
+  filter: grayscale(1);
+  background-color: #fff;
+}
+.carsss .carsss-image:hover {
+  filter: grayscale(0);
+  background-color: black;
+}
+.carsss .carsss-image .p1 {
+  position: absolute;
+  top: 0;
+  right: 19px;
+  color: orangered;
+  cursor: pointer;
+}
+.carsss .carsss-image .p2 {
+  position: absolute;
+  top: 0;
+  right: 462px;
+  color: black;
+  cursor: pointer;
+}
+.carsss .carsss-image:hover .p2 {
+  color: #ffffff;
+}
+.carsss .carsss-image:hover .p1 {
+  color: orangered;
+}
+
+.autocar {
+  background-image: url("https://quattro.true-emotions.studio/wp-content/uploads/2019/07/bg5.jpg?id=1923");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -999;
+  overflow: hidden;
+}
+.autocar .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -999;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.88);
+}
+.autocar .autocarr .autocar-text {
+  margin: 35px 30px;
+}
+.autocar .autocarr .autocar-text p {
+  color: #bbbbbb;
+  font-size: 25px;
+}
+.autocar .autocarr .autocar-text h2 {
+  color: #ffff;
+}
+.autocar .autocarr .autocar-texts .box5 {
+  padding: 40px 0 0;
+}
+.autocar .autocarr .autocar-texts .box5 i {
+  color: orangered;
+  font-size: 35px;
+}
+.autocar .autocarr .autocar-texts .box5 span {
+  color: #fff;
+  font-size: 16px;
+}
+.autocar .autocarr .autocar-texts .box5 p {
+  color: #bbbbbb;
+  font-size: 16px;
+  margin: 2rem 0;
+}
+
+#CounterUp {
+  background-color: black;
+  padding: 4rem;
+}
+#CounterUp .counter {
+  padding: 20px 0;
+  font-size: 50px;
+  color: #ffffff;
+}
+#CounterUp i {
+  font-size: 50px;
+  color: #fff;
+}
+
+.team {
+  overflow: hidden;
+  background-color: #f6f6f7;
+}
+.team .team-text {
+  padding: 60px 0 74px;
+}
+.team .team-text h2 {
+  font-size: 30px;
+  color: #000;
+  padding: 0 60px;
+}
+.team .team-text p {
+  color: #5c5c5c;
+  font-size: 15px;
+  margin: 20px 0 16px;
+}
+.team .team-box {
+  position: relative;
+}
+.team .team-box:hover .teams {
+  left: 0;
+}
+.team .team-box .teams h5 {
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 0;
+}
+.team .team-box .teams p {
+  color: #fff;
+}
+.team .teams {
+  position: absolute;
+  transition: 0.3s;
+  bottom: 0;
+  left: 20%;
+  width: 100%;
+  background-color: black;
+}
+
+.question {
+  padding: 105px 0;
+  transition: 0.4s;
+}
+.question .acctext h5 {
+  font-size: 14px;
+}
+.question .text h2 {
+  font-weight: bold;
+  line-height: 1;
+  display: inline-block;
+  position: relative;
+  padding-right: 60px;
+}
+.question .text p {
+  font-size: 14px;
+  color: #5c5c5c;
+  line-height: 25px;
+  margin: 25px 0;
+}
+.question hr {
+  border-width: 5px;
+  width: 95%;
+}
+.question .hr1 {
+  position: relative;
+}
+.question .hr1::after {
+  position: absolute;
+  content: '';
+  background-color: #ff3837;
+  width: 70%;
+  top: -5px;
+  left: 0;
+  height: 5px;
+}
+.question .hr2 {
+  position: relative;
+}
+.question .hr2::after {
+  position: absolute;
+  content: '';
+  background-color: #ff3837;
+  width: 50%;
+  top: -5px;
+  left: 0;
+  height: 5px;
+}
+.question .hr3 {
+  position: relative;
+}
+.question .hr3::after {
+  position: absolute;
+  content: '';
+  background-color: #ff3837;
+  width: 60%;
+  top: -5px;
+  left: 0;
+  height: 5px;
+}
+.question .hr4 {
+  position: relative;
+}
+.question .hr4::after {
+  position: absolute;
+  content: '';
+  background-color: #ff3837;
+  width: 90%;
+  top: -5px;
+  left: 0;
+  height: 5px;
+}
+.question .section .accordion {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.question .section .accordion .accordion:after {
+  content: '\002B';
+  color: #ff3837;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.question .section .accordion .active:after {
+  content: "\2212";
+}
+.question .section .accordion .acc-text {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.carsgalery {
+  background-color: #212121;
+  overflow: hidden;
+  position: relative;
+}
+.carsgalery .icons5 {
+  position: absolute;
+  top: 90px;
+  right: 55px;
+}
+.carsgalery .icons5 i {
+  color: #fff;
+  font-size: 55px;
+  background-color: rgba(34, 34, 34, 0.9);
+  cursor: pointer;
+}
+.carsgalery .car2 {
+  padding: 2rem 0;
+}
+.carsgalery .car2 h3 {
+  color: #fff;
+  font-size: 37px;
+  padding: 58px 0 35px 170px;
+  cursor: pointer;
+}
+.carsgalery .car3box {
+  position: relative;
+  cursor: pointer;
+}
+.carsgalery .car3box .car3text {
+  position: absolute;
+  color: #fff;
+  top: 0;
+  left: 18px;
+  transition: all 0.4s ease-in-out;
+}
+.carsgalery .car3box:hover .car3text {
+  transform: translateY(120px);
+}
+.carsgalery .car3box:hover p {
+  color: #ff3737;
+}
+
+.special {
+  background-color: #f6f6f7;
+  padding: 5px 0 0;
+}
+.special .special-text {
+  margin: 35px 0 70px;
+}
+.special .offers .offers-box .boks1 {
+  padding: 30px 0 0 20px;
+  background-color: red;
+}
+.special .offers .offers-box .boks1 h4 {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 0 18px;
+}
+.special .offers .offers-box .boks1 h5 {
+  color: #ffff;
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+.special .offers .offers-box .boks1 p {
+  color: #bbbbbb;
+  font-size: 14px;
+}
+.special .offers .offers-box .boks2 {
+  background-color: #000;
+  padding: 30px 0 0 20px;
+}
+.special .offers .offers-box .boks2 h4 {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 0 18px;
+}
+.special .offers .offers-box .boks2 h5 {
+  color: #ff3837;
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+.special .offers .offers-box .boks2 p {
+  color: #bbbbbb;
+  font-size: 14px;
+}
+.special .offers .offers-box .boks3 {
+  background-color: red;
+  padding: 30px 0 0 20px;
+}
+.special .offers .offers-box .boks3 h4 {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 0 18px;
+}
+.special .offers .offers-box .boks3 h5 {
+  color: #ffff;
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+.special .offers .offers-box .boks3 p {
+  color: #bbbbbb;
+  font-size: 14px;
+}
+.special .offers .offers-box .boks4 {
+  background-color: black;
+  padding: 30px 0 0 20px;
+}
+.special .offers .offers-box .boks4 h4 {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 0 18px;
+}
+.special .offers .offers-box .boks4 h5 {
+  color: #ff3837;
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+.special .offers .offers-box .boks4 p {
+  color: #bbbbbb;
+  font-size: 14px;
+}
+
+.carsstore {
+  padding: 60px 0;
+}
+.carsstore .store-left h4 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 60px 0 0;
+}
+.carsstore .store-right a {
+  text-decoration: #000;
+  color: #000000;
+  font-size: 16px;
+  padding: 0 20px;
+}
+.carsstore .store-right .a1 {
+  color: #ff3837;
+  font-size: 16px;
+}
+.carsstore .store-box .store-boks {
+  cursor: pointer;
+  padding: 30px 33px;
+}
+.carsstore .store-box .store-boks img {
+  border: 1px solid #000;
+}
+.carsstore .store-box .store-boks .store-text p {
+  cursor: pointer;
+}
+
+.table {
+  padding: 0 0 60px;
+  background-color: #f6f6f7;
+}
+.table .table-header {
+  padding: 60px 0;
+}
+.table .one-time {
+  background-color: #fff;
+}
+.table .one-time .one-boks {
+  padding: 38px 0 70px;
+  box-shadow: 8px 12px 25px 15px rgba(34, 34, 34, 0.9);
+  position: relative;
+}
+.table .one-time .one-boks .p10 {
+  position: absolute;
+  top: 120px;
+  right: 63px;
+  font-size: 13px;
+  color: #bbbbbb;
+}
+.table .one-time .one-boks h6 {
+  color: #6f6f6f;
+  font-size: 16px;
+}
+.table .one-time .one-boks h3 {
+  color: #000000;
+  font-size: 30px;
+}
+.table .one-time .one-boks span {
+  color: #ff3837;
+  font-size: 46px;
+}
+.table .one-time .one-boks p {
+  color: #5c5c5c;
+  font-size: 16px;
+  padding: 25px 0;
+}
+.table .one-time .one-boks button {
+  border: none;
+  color: #ffff;
+  font-size: 14px;
+  background-color: #ff3837;
+  padding: 16px 35px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.table .one-time .one-boks button:hover {
+  box-shadow: 0 0 20px #ff3737;
+}
+.table .one-time .one-box {
+  padding: 38px 0 70px;
+}
+.table .one-time .one-box h6 {
+  color: #6f6f6f;
+  font-size: 16px;
+}
+.table .one-time .one-box h3 {
+  color: #000000;
+  font-size: 30px;
+}
+.table .one-time .one-box span {
+  color: #ff3837;
+  font-size: 46px;
+}
+.table .one-time .one-box p {
+  color: #5c5c5c;
+  font-size: 16px;
+  padding: 25px 0;
+}
+.table .one-time .one-box button {
+  border: none;
+  color: #ffff;
+  font-size: 14px;
+  background-color: #ff3837;
+  padding: 16px 35px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.table .one-time .one-box button:hover {
+  box-shadow: 0 0 20px #ff3737;
+}
+.table .one-time .one-box .p10 {
+  position: absolute;
+  top: 120px;
+  right: 63px;
+  font-size: 13px;
+  color: #bbbbbb;
+}
+
+.maps {
+  padding: 4rem 0;
+  position: relative;
+}
+.maps .maps-tekst {
+  position: absolute;
+  top: 20px;
+  left: 91px;
+  background-color: #0d0d0d;
+}
+.maps .maps-tekst .maps-text {
+  padding: 20px 15px;
+}
+.maps .maps-tekst .maps-text h4 {
+  color: #fff;
+  font-size: 30px;
+  padding: 15px 10px;
+}
+.maps .maps-tekst .maps-text a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 36px;
+}
+.maps .maps-tekst .maps-text p {
+  color: #bbbbbb;
+  font-size: 14px;
+  padding: 15px 0;
+}
+.maps .maps-tekst .maps-text button {
+  border: none;
+  color: #fff;
+  font-size: 32px;
+  border-radius: 5px;
+  background: #212121;
+  margin: 29px 0;
+  padding: 3px 15px;
+  transition: all 0.3s ease-in-out;
+}
+.maps .maps-tekst .maps-text button:hover {
+  box-shadow: 0 0 20px #ff3737;
+}
+
+.contact {
+  background-color: #fff;
+}
+.contact .contact-form {
+  padding: 65px 0;
+}
+.contact .contact-form h3 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.contact .contact-inp .inp1 span {
+  background-color: #f6f6f7;
+  padding: 28px 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.contact .contact-inp .inp1 span input {
+  border: none;
+  background-color: #f6f6f7;
+  outline: none;
+  padding: 26px 47px;
+}
+.contact .contact-inp .inp2 span {
+  background-color: #f6f6f7;
+  padding: 28px 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.contact .contact-inp .inp2 span input {
+  border: none;
+  background-color: #f6f6f7;
+  outline: none;
+  padding: 26px 31px;
+}
+.contact .contact-inp .inp3 span {
+  background-color: #f6f6f7;
+  padding: 28px 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.contact .contact-inp .inp3 span input {
+  border: none;
+  background-color: #f6f6f7;
+  outline: none;
+  padding: 26px 47px;
+}
+.contact .big-inp {
+  padding: 40px 0;
+}
+.contact .big-inp textarea {
+  width: 100%;
+  height: 365px;
+  background-color: #f6f6f7;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+.future {
+  background-image: url("https://quattro.true-emotions.studio/wp-content/uploads/2018/11/bg8.jpg?id=1927");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 6rem 0;
+  z-index: 999;
+}
+.future .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -999;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.88);
+}
+.future .future7 span {
+  color: #fff;
+  font-size: 30px;
+}
+.future .future7 p {
+  color: #bbbbbb;
+  font-size: 14px;
+  padding: 45px 0;
+}
+.future .future7 i {
+  background-color: #111111;
+  margin: 10px 0 0;
+  color: #fff;
+  padding: 5px 13px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.future .future7 i:hover {
+  color: #ff3737;
+}
+.future .future7 h5 {
+  color: #fff;
+  font-size: 10px;
+  padding: 15px 0;
+}
+.future .future7 a {
+  font-size: 14px;
+  color: #bbbbbb;
+}
+.future .future7 a:hover {
+  color: #ff3837;
+}
+.future .future7 .futureinp {
+  position: relative;
+}
+.future .future7 .futureinp input {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin: 25px 0;
+  color: #fff;
+}
+.future .future7 .futureinp hr {
+  background: #bbbbbb;
+}
+.future .future7 .futureinp button {
+  position: absolute;
+  bottom: -62px;
+  right: 139px;
+  background-color: #ff3837;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  padding: 13px 41px;
+}
+.future .future7 .futureinp button:hover {
+  box-shadow: 0 0 20px #ff3737;
+}
+
+.future20 {
+  background-color: #000000;
+  padding: 3rem 0;
+}
+.future20 .future21 p {
+  color: #fff;
+}
+.future20 .future21 p span {
+  color: #bbbbbb;
+  font-size: 14px;
+}
+.future20 .future21 a {
+  padding: 0px 9px;
+  text-decoration: none;
+  color: #bbbbbb;
+  transition: all .3s ease-in-out;
+  font-size: 14px;
+}
+.future20 .future21 a:hover {
+  color: #ff3837;
+}
+
+.sendmessage {
+  padding: 5px 0px 60px 0px;
+  background-color: #fff;
+}
+.sendmessage button {
+  padding: 30px 145px;
+  border: none;
+  outline: none;
+  background-color: #ff3737;
+  border-radius: 5px;
+  transition: all .3s ease-in-out;
+  color: #fff;
+  font-size: 14px;
+}
+.sendmessage button:hover {
+  box-shadow: 0 0 20px #ff3737;
+}
+
+.first {
+  background-image: url(https://quattro.true-emotions.studio/wp-content/uploads/2018/11/bg1.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 0rem 0rem 20rem 0rem;
+  position: relative;
+  z-index: -999;
+}
+.first .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -999;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.88);
+}
+.first .first-text {
+  position: absolute;
+  bottom: 85px;
+  left: 95px;
+}
+.first .first-text h2 {
+  color: #fff;
+  font-size: 32px;
+  padding: 25px 0px;
+}
+.first .first-text a {
+  color: #bbbbbb;
+  text-decoration: none;
+}
+.first .first-text a:hover {
+  color: #ff3837;
+}
+
+.third {
+  background-color: #f6f6f7;
+  padding: 4rem 0rem 4rem 0rem;
+}
+.third .third-box {
+  background-color: #ffff;
+  box-shadow: 0 0 20px #bbbbbb;
+  margin: 0px 35px 0px 60px;
+  padding: 90px 0px;
+  transition: all .3s ease-in-out;
+}
+.third .third-box:hover {
+  border: 1px solid #ff3837;
+}
+.third .third-box:hover i {
+  transform: scale(2);
+}
+.third .third-box i {
+  font-size: 60px;
+  color: #ff3837;
+  transform: scale(1);
+  transition: all .5s ease-in-out;
+}
+.third .third-box .third-text h4 {
+  color: #000000;
+  font-size: 16px;
+  padding: 40px 0px;
+}
+.third .third-box .third-text p {
+  color: #5c5c5c;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=style.css.map */
